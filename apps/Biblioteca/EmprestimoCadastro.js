@@ -33,7 +33,7 @@ const EmprestimoCadastro = ({ navigation }) => {
             navigation={navigation}
         />
         <FormComponent
-            database={'biblioteca.db'}
+            database={''}
             tabelas={['Emprestimo']}
             fields={[fields]}
             fieldsTypes={fieldsTypes}

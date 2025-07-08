@@ -82,12 +82,12 @@ export default function App() {
         <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
 
         <Stack.Screen name="HomeRoupas" component={HomeRoupas} />
-        <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
-        <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
-        <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
-        <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
-        <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
-        <Stack.Screen name="EmprestimoCadastro" component={EmprestimoCadastro} />
+        <Stack.Screen name="ClienteCadastro" component={ClienteCadastro} />
+        <Stack.Screen name="ClienteLista" component={ClienteLista} />
+        <Stack.Screen name="PedidoLista" component={PedidoLista} />
+        <Stack.Screen name="PedidoCadastro" component={PedidoCadastro} />
+        <Stack.Screen name="ProdutoLista" component={ProdutoLista} />
+        <Stack.Screen name="ProdutoCadastro" component={ProdutoCadastro} />
 
 
         
@@ -118,6 +118,14 @@ export default function App() {
             iconName="book"
             activeScreen={activeScreen}
             setActiveScreen={setActiveScreen}
+          />
+
+          <BottomBarButton
+            title="Roupa"
+            screen="HomeRoupas"
+            activeScreen={activeScreen}
+            setActiveScreen={setActiveScreen}
+            iconName="basket"
           />
 
 

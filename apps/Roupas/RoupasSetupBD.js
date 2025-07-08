@@ -1,6 +1,6 @@
 import SQLComponent from '../../components/SQliteComponent';
 
-const NomeDatabase = 'biblioteca.db';
+const NomeDatabase = 'lojaroupa.db';
 
 
 const createProdutoTable = async () => {
@@ -35,7 +35,7 @@ const createClienteTable = async () => {
 
 const createPedidoTable = async () => {
     try {
-    await SQLComponent.createTable(NomeDatabase, 'Livro', [
+    await SQLComponent.createTable(NomeDatabase, 'Pedido', [
         { name: 'id', type: 'INTEGER', primaryKey: true },
         { name: 'cliente', type: 'INTEGER', foreignKey: { table: 'Cliente', column: 'id' } },
         { name: 'produto', type: 'INTEGER', foreignKey: { table: 'Produto', column: 'id' } },

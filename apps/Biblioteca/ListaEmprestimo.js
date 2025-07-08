@@ -27,9 +27,7 @@ const ListaEmprestimo = ({ navigation }) => {
                             Emprestimo: {
                                 "fields": ["usuario"],
                             },
-                            Livro: {
-                                "fields": ["titulo"],
-                            }
+                            
                         }}
                         fieldsTypes={[{
                             "livro": "picker",

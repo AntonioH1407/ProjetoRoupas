@@ -13,7 +13,7 @@ import { setupRoupaDatabase } from './RoupasSetupBD';
 
 const headerTitle = "Loja de Roupas";
 const headerItems = [
-    ['Home', 'HomeRoupa'],
+    ['Home', 'HomeRoupas'],
     ['Lista de Produtos', 'ProdutoLista'],
     ['Lista de Clientes', 'ClienteLista'],
     ['Lista de Pedidos', 'PedidoLista'],
@@ -38,15 +38,21 @@ const HomeScreen = ({ navigation }) => {
             <View style={styles.container}>
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => navigation.navigate('LivroLista')} 
+                    onPress={() => navigation.navigate('ClienteLista')} 
                 >
-                    <Text style={styles.buttonText}>Livros </Text>
+                    <Text style={styles.buttonText}>Clientes </Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => navigation.navigate('ListaEmprestimo')} 
+                    onPress={() => navigation.navigate('ProdutoLista')} 
                 >
-                    <Text style={styles.buttonText}>Emprestimos </Text>
+                    <Text style={styles.buttonText}>Produtos </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => navigation.navigate('PedidoLista')} 
+                >
+                    <Text style={styles.buttonText}>Pedidos </Text>
                 </TouchableOpacity>
             </View>
         </View>

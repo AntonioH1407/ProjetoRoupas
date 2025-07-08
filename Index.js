@@ -21,7 +21,7 @@ const HomeScreen = ({ navigation }) => {
     const [userGroup, setUserGroup] = useState("");
     const [isLoading, setIsLoading] = useState(false); // Estado para controlar o carregamento
 
-    const appNames = ["transito","biblioteca"];
+    const appNames = ["transito","biblioteca","roupas"];
 
     useFocusEffect(
       React.useCallback(() => {
