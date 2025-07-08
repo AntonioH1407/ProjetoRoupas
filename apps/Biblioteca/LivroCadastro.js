@@ -19,7 +19,7 @@ const fieldsTypes = [{
     "titulo": "text",
     "autor": "picker",
     "categoria": "picker",
-    "ano_publicacao": "text",
+    "ano_publicacao": "ano",
     "data_cadastro": "hrauto",
     "capa": "upload",
 }];

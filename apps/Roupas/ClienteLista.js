@@ -37,7 +37,7 @@ const ClienteLista = ({ navigation }) => {
                             "endereço": "text",
                         }]}
                         depth={1}
-                        feldslabels={{
+                        fieldslabels={{
                             nome: "Nome"
                         }}
                         permissao="3"

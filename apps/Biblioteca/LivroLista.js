@@ -32,11 +32,11 @@ const LivroLista = ({ navigation }) => {
                             "titulo": "text",
                             "autor": "picker",
                             "categoria": "picker",
-                            "ano_publicacao": "text",
+                            "ano_publicacao": "ano",
                             "data_cadastro": "hrauto"
                         }]}
                         depth={1}
-                        feldslabels={{
+                        fieldslabels={{
                             titulo: "Título"
                         }}
                         permissao="3"

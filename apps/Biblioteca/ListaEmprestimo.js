@@ -36,7 +36,7 @@ const ListaEmprestimo = ({ navigation }) => {
                             "data_devolucao": "data"
                         }]}
                         depth={1}
-                        feldslabels={{
+                        fieldslabels={{
                             titulo: "Título"
                         }}
                         permissao="3"

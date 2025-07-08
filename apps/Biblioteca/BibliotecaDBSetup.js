@@ -32,7 +32,7 @@ const createLivroTable = async () => {
         { name: 'id', type: 'INTEGER', primaryKey: true },
         { name: 'titulo', type: 'TEXT' },
         { name: 'categoria', type: 'INTEGER', foreignKey: { table: 'Categoria', column: 'id' } },
-        { name: 'ano_publicacao', type: 'TEXT' },
+        { name: 'ano_publicacao', type: 'NUMBER' },
         { name: 'capa', type: 'TEXT' },
         ]);
     } catch (error) {

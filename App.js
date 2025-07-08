@@ -125,7 +125,7 @@ export default function App() {
             screen="HomeRoupas"
             activeScreen={activeScreen}
             setActiveScreen={setActiveScreen}
-            iconName="basket"
+            iconName="tshirt-crew"
           />
 
 
